@@ -1,0 +1,71 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ .navbar{
+  background-color: rgb(85, 85, 193);
+  padding:18px;
+  display: flex;
+  align-items: center;
+  gap:50px;
+  justify-content: space-between;
+
+
+ }
+ .image img {
+  width: 1520px;
+
+ }
+ .content{
+  background-color: rgb(85, 85, 193);
+ }
+ .ticketmain{
+  background-color: blueviolet;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:200px;
+
+ }
+ .ticketdet{
+   
+  background-color: rgb(249, 249, 244);
+  width: 400px;
+  height: 500px;
+  border-radius: 15px;
+  
+ } 
+ .link {
+  display: flex;
+  align-items: center;
+  gap:35px;
+  
+
+ }
+ .link a {
+  text-decoration: none;
+  color: black;
+   font-size:13px;
+
+ }
+ 
+.link a:hover {
+  background-color:rgb(176, 115, 233);
+  border-radius:5px;
+ 
+  padding:2px;
+   
+}
+.cardimg{
+  width:100%;
+  border-radius:5px;
+  
+}
+.ticmov{
+  padding: 10px;
+  margin:10px;
+
+}
