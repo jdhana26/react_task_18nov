@@ -69,3 +69,26 @@
   margin:10px;
 
 }
+
+.linkstyle {
+  display: flex;
+  gap: 1rem;
+}
+
+.linklist {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem 0.9rem;
+  border-radius: 25px;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+  background: rgba(255,255,255,0.06);
+}
+
+.linklist:hover {
+  background: rgba(255,255,255,0.22);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
